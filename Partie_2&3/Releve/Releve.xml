@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<releve rib="123456789">
+    <dateReleve>2022-12-26T00:00:00+01:00</dateReleve>
+    <solde>3652.0</solde>
+    <Operations dateDebut="3922-02-12T00:00:00+01:00" dateFin="3923-01-12T00:00:00+01:00">
+        <operation type="Credit" date="2022-02-15T00:00:00+01:00" montant="9800.0" description="Vers Espèce"/>
+        <operation type="Debit" date="2022-11-15T00:00:00+01:00" montant="7000.01" description="Chèque Guichet"/>
+        <operation type="Credit" date="2022-08-25T00:00:00+02:00" montant="8953.0" description="Chèque Guichet"/>
+    </Operations>
+</releve>
