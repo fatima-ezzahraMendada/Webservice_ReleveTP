@@ -21,29 +21,18 @@
                             <th>Date</th>
                             <th>Montant</th>
                             <th>Description</th>
-                          
                         </tr>
-                        <xsl:for-each select="/releve/operations/operation">
+                        <xsl:for-each select="/releve/operations/operation[@type='CREDIT']">
                             <tr>
                                 <td><xsl:value-of select="@type" /></td>
                                 <td><xsl:value-of select="@date" /></td>
                                 <td><xsl:value-of select="@montant" /></td>
                                 <td><xsl:value-of select="@description" /></td>
-                        
                             </tr>
-                         
                         </xsl:for-each>
                     </table>
-                    <ul>
-                        <li>Total des opérations
-                            <xsl:value-of select="count(operations/operation)"></xsl:value-of>
-                        </li>
-                        <li>Total des montants des opérations
-                            <xsl:value-of select="sum(operations/operation/@montant)"></xsl:value-of>
-                        </li>
-                    </ul>
                 </xsl:for-each> 
-                   </body>
+            </body>
         </html>
     </xsl:template>
 </xsl:stylesheet>
