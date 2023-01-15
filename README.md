@@ -7,6 +7,10 @@ Releve Total:
 
 ![Releve_Total](https://user-images.githubusercontent.com/96340330/212503347-6ffb8870-ba0a-426d-815e-15be0bfe63d8.PNG)
 
+Schema xml:
+
+![releve_schema](https://user-images.githubusercontent.com/96340330/210448489-9b7f8ce6-cbaf-4c18-bb3b-95559c7bfd71.png)
+
 Marshaller:
 
 ![Marshaller](https://user-images.githubusercontent.com/96340330/210448384-432c9092-34ad-4827-9877-fbf7358a52fc.PNG)
@@ -27,6 +31,7 @@ Soap Client:
 
 ![Soap_test](https://user-images.githubusercontent.com/96340330/210448412-2182a71d-8d8a-4a9b-83f8-66544d63e472.PNG)
 
-Schema xml:
 
-![releve_schema](https://user-images.githubusercontent.com/96340330/210448489-9b7f8ce6-cbaf-4c18-bb3b-95559c7bfd71.png)
+Releve Client:
+![image](https://user-images.githubusercontent.com/96340330/212503934-56940a39-d45d-447d-bb0e-bfff12ad8a4e.png)
+
